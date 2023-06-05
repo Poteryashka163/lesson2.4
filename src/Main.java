@@ -1,13 +1,13 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Scanner login = new Scanner(System.in);
+        Scanner registration = new Scanner(System.in);
         System.out.print("Введите Логин: ");
-        String log = login.next();
+        String login = registration.next();
         System.out.print("Введите Пароль: ");
-        String pass = login.next();
+        String password = registration.next();
         System.out.print("Введите Подтверждение пароля: ");
-        String confPass = login.next();
+        String confirmPassword = registration.next();
 
         try {
             CheckCredentials.checkCredentials("java_skypro_go", "D_1hWiKjjP_9", "D_1hWiKjjP_9");
